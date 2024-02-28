@@ -11,5 +11,6 @@ namespace WebApplication2.Contexts
         }
 
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Shipping> Shippings { get; set; }
     }
 }
